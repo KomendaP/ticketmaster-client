@@ -1,0 +1,31 @@
+{
+  "name": "ticketmaster-client",
+  "version": "1.0.3",
+  "description": "Ticket Master Discovery API JavaScript client SDK for the Ticketmaster Open Platform",
+  "main": "dist/bundle.min.js",
+  "dependencies": {},
+  "devDependencies": {
+    "json-loader": "^0.5.4",
+    "ticketmaster": "^0.0.0",
+    "webpack": "^1.13.1"
+  },
+  "scripts": {
+    "dev": "webpack",
+    "prod": "NODE_ENV=prod webpack",
+    "win-prod": "set NODE_ENV=prod && webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KomendaP/ticketmaster-client.git"
+  },
+  "keywords": [
+    "ticketmaster",
+    "ticketmaster-client"
+  ],
+  "author": "Pavlo Komenda",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/KomendaP/ticketmaster-client/issues"
+  },
+  "homepage": "https://github.com/KomendaP/ticketmaster-client#readme"
+}
